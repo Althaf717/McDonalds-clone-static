@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+.border{
+   display: flex;
+   padding-left: 170px;
+   padding-top: 7px;
+}
+.border-logo{
+    width: 81pt;
+    height: 81pt;
+    display: inline;
+    
+}
+.header-top{
+    display: flex;
+    height: 40pt;
+    justify-content: center;
+    align-items: center;
+
+}
+.header ul li{
+    cursor: pointer;
+}
+.header-top ul{
+    display: flex;
+    list-style: none;
+   margin-left: 20px;
+   font-size: 14px;
+   line-height: 24px;
+}
+.header-top ul li{
+    padding-left: 15px;
+}
+
+.header-down
+{
+    display: flex;
+    height: 40pt;
+
+}
+.header-down ul{
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 1pc;
+    justify-content: space-between;
+}
+.header-down ul li{
+    padding-left: 20px ;
+}
+button{
+    background: #ffbc0d;
+    color: #292929;
+    line-height: 24px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 25px;
+}
+.top-left{
+    padding-right: 120px;
+
+}
+.top-right{
+    padding-left: 150px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    padding: 50px;
+
+}
+.img-div{
+    width: 52%;
+    margin-left: 110px;
+}
+.image{
+    width: 100%;
+    
+}
+.para{
+    width: 26%;
+  padding-left: 2%;
+  padding-right: 12px;
+}
+.para h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.footer ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav{
+    display: block;
+    display: flex;
+}
+.list-box{
+    display: flex;
+}
+.footer div{
+    padding-left: 64px;
+    line-height: 30px;
+    margin-right: 75px;
+}
+.footer h2{
+    padding-left: 35px;
+}
+.store{
+    display: flex;
+    margin-left: 15%;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+
+}
+.footer-main{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.footer-bottom{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.footer{
+    margin-bottom: 70px;
+}
+.footer-bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-bottom ul li{
+    margin-right: 54px;
+}
+.footer-bottom img{
+    width: 10%;
+    height: 30%;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+.footer-text{
+    display: flex;
+    text-align: right;
+
+}
